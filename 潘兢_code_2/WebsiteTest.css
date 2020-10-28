@@ -99,8 +99,8 @@ li p{
 .picture2 {
     float: left;
     position: absolute;
-    left: 370px;
-    top: 1410px;
+    left: 340px;
+    top: 1415px;
     border-radius:15px;
     z-index: -1;
 }
@@ -127,10 +127,10 @@ li p{
 }
 
 .picture3 {
-    float: left;
+    float: right;
     position: absolute;
-    left: 370px;
-    top: 1950px;
+    right: 340px;
+    top: 1415px;
     border-radius:15px;
     z-index: -1;
 }
@@ -156,6 +156,68 @@ li p{
     from {opacity:0.4;}
     to {opacity:1.0;}
 }
+
+.picture4 {
+    float: left;
+    position: absolute;
+    left: 340px;
+    top: 1695px;
+    border-radius:15px;
+    z-index: -1;
+}
+.p3{
+    opacity:0.4;
+}
+.p3:hover{
+    animation:mysecond 2s;
+    -webkit-animation:mysecond 2s;
+    animation-iteration-count:1;
+	animation-fill-mode:forwards;
+}
+
+@keyframes mysecond
+{
+    from {opacity:0.4;}
+    to {opacity:1.0;}
+}
+
+@-webkit-keyframes mysecond
+{
+    from {opacity:0.4;}
+    to {opacity:1.0;}
+}
+
+.picture5 {
+    float: right;
+    position: absolute;
+    right: 340px;
+    top: 1695px;
+    border-radius:15px;
+    z-index: -1;
+}
+
+.p4{
+    opacity:0.4;
+}
+.p4:hover{
+    animation:mysecond 2s;
+    -webkit-animation:mysecond 2s;
+    animation-iteration-count:1;
+	animation-fill-mode:forwards;
+}
+
+@keyframes mysecond
+{
+    from {opacity:0.4;}
+    to {opacity:1.0;}
+}
+
+@-webkit-keyframes mysecond
+{
+    from {opacity:0.4;}
+    to {opacity:1.0;}
+}
+
 
 .a1 {
     font-size: 20px;
@@ -194,7 +256,17 @@ li p{
     float: left;
     position: absolute;
     left: 720px;
-    top: 1310px;
+    top: 1300px;
+    z-index: -1;
+}
+
+.a6 {
+    font-size: 18px;
+    color: #616161;
+    float: left;
+    position: absolute;
+    left: 720px;
+    top: 2100px;
     z-index: -1;
 }
 
@@ -203,11 +275,12 @@ li p{
     color: rgb(153, 153, 153);
     float: left;
     position: absolute;
-    top: 2480px;
-    left: 700px;
+    top: 2000px;
+    left: 730px;
+    z-index: -1;
 }
 
-.button {
+.button1 {
     background-color: #68b0ab; 
     border: none;/*边框*/
     color: rgb(255, 255, 255);
@@ -221,6 +294,80 @@ li p{
     border-radius: 20px;/*圆角*/
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
+
+.a9{
+    font-size: 20px;
+    color: rgb(153, 153, 153);
+    float: left;
+    position: absolute;
+    top: 2450px;
+    left: 730px;
+    z-index: -1;
+}
+
+.button2 {
+    background-color: #68b0ab; 
+    border: none;/*边框*/
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;/*边距 上下与左右*/
+    text-align: center;
+    text-decoration: none;/*装饰*/
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;/*光标*/
+    border-radius: 20px;/*圆角*/
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.picture6 {
+    float: left;
+    position: absolute;
+    left: 370px;
+    top: 2200px;
+    border-radius:15px;
+    z-index: -1;
+}
+
+.picture7 {
+    float: right;
+    position: absolute;
+    right: 370px;
+    top: 2200px;
+    border-radius:15px;
+    z-index: -1;
+}
+
+.a7{
+    font-size: 10px;
+    color: #3d3d3d;
+    float: left;
+    position: absolute;
+    top: 2375px;
+    left: 430px;
+    z-index: -1;
+}
+
+.a8{
+    font-size: 10px;
+    color: #3d3d3d;
+    float: right;
+    position: absolute;
+    top: 2375px;
+    right: 430px;
+    z-index: -1;
+}
+
+a.one:link {color:#3d3d3d;text-decoration:none;}      /* 未访问链接*/
+a.one:visited {color:#3d3d3d;text-decoration:none;}  /* 已访问链接 */
+a.one:hover {color:#222222;text-decoration:underline;}  /* 鼠标移动到链接上 */
+a.one:active {color:#222222;text-decoration:underline;}  /* 鼠标点击时 */
+
+a.two:link {color:#3d3d3d;text-decoration:none;}      /* 未访问链接*/
+a.two:visited {color:#3d3d3d;text-decoration:none;}  /* 已访问链接 */
+a.two:hover {color:#222222;text-decoration:underline;}  /* 鼠标移动到链接上 */
+a.two:active {color:#222222;text-decoration:underline;}  /* 鼠标点击时 */
+
 
 .f1 {
     font-size: 40px;
